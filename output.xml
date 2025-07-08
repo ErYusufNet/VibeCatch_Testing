@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-07-07T11:56:15.303025" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\yusuf\PycharmProjects\VibeCatch_Testing\Tests\login_test.robot">
+<test id="s1-t1" name="TC01 Login To Vibecatch" line="5">
+<kw name="Open website" owner="keywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-07-07T11:56:15.488506" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\b1dbfeb9-ae26-4f60-8ca5-20e6953691d3"}</msg>
+<msg time="2025-07-07T11:56:15.509303" level="INFO">Starting Browser process C:\Python\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:56763</msg>
+<msg time="2025-07-07T11:56:16.883008" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\b1dbfeb9-ae26-4f60-8ca5-20e6953691d3"}</msg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-07T11:56:15.487863" elapsed="1.395466"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-07-07T11:56:20.761819" level="INFO">Successfully initialized new page object and opened url: https://env-5369504.paas.datacenter.fi/</msg>
+<msg time="2025-07-07T11:56:20.761917" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-07T11:56:16.883770" elapsed="3.878331"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-07-07T11:56:20.763083" level="INFO">Clicks the element '//div[contains(@class,'adroll_button_text') and text()='Allow All']'.</msg>
+<arg>//div[contains(@class,'adroll_button_text') and text()='Allow All']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.762343" elapsed="0.081469"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-07-07T11:56:20.844912" level="INFO">Clicks the element '//a[@class='login']'.</msg>
+<arg>//a[@class='login']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.844089" elapsed="0.046193"/>
+</kw>
+<status status="PASS" start="2025-07-07T11:56:15.487231" elapsed="5.403226"/>
+</kw>
+<kw name="Login" owner="keywords">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-07-07T11:56:20.907564" level="INFO">Waited for Element with selector input#username at state visible</msg>
+<arg>input#username</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.891531" elapsed="0.016225"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-07T11:56:20.908831" level="INFO">Fills the text 'yusuf.er@brightstraining.com' in the given field.</msg>
+<arg>input#username</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.907992" elapsed="0.035095"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-07-07T11:56:20.953550" level="INFO">Waited for Element with selector input#password at state visible</msg>
+<arg>input#password</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.943460" elapsed="0.010296"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-07-07T11:56:20.954915" level="INFO">Fills the text 'tenor!embedded9PING' in the given field.</msg>
+<arg>input#password</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.954019" elapsed="0.015693"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-07-07T11:56:20.970821" level="INFO">Clicks the element '//input[@type='submit' and @value='Login']'.</msg>
+<arg>//input[@type='submit' and @value='Login']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-07T11:56:20.970003" elapsed="0.037043"/>
+</kw>
+<status status="PASS" start="2025-07-07T11:56:20.890959" elapsed="0.116278"/>
+</kw>
+<msg time="2025-07-07T11:56:21.037787" level="INFO">Switching context to context=fe565c69-b94b-4ac6-843c-6cfe853e211c in CURRENT</msg>
+<msg time="2025-07-07T11:56:21.051657" level="INFO">Successfully changed active context: context=fe565c69-b94b-4ac6-843c-6cfe853e211c</msg>
+<msg time="2025-07-07T11:56:21.128881" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-07-07T11:56:15.486429" elapsed="5.521272"/>
+</test>
+<status status="PASS" start="2025-07-07T11:56:15.305297" elapsed="5.826787"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test" id="s1" pass="1" fail="0" skip="0">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
