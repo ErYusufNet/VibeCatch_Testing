@@ -1,109 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-07-07T11:56:15.303025" rpa="false" schemaversion="5">
-<suite id="s1" name="Login Test" source="C:\Users\yusuf\PycharmProjects\VibeCatch_Testing\Tests\login_test.robot">
-<test id="s1-t1" name="TC01 Login To Vibecatch" line="5">
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-07-10T14:57:25.167311" rpa="false" schemaversion="5">
+<suite id="s1" name="Delete Poll Test" source="C:\Users\yusuf\PycharmProjects\VibeCatch_Testing\Tests\delete_poll_test.robot">
+<test id="s1-t1" name="TC01 Delete Poll" line="8">
 <kw name="Open website" owner="keywords">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-07-07T11:56:15.488506" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\b1dbfeb9-ae26-4f60-8ca5-20e6953691d3"}</msg>
-<msg time="2025-07-07T11:56:15.509303" level="INFO">Starting Browser process C:\Python\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:56763</msg>
-<msg time="2025-07-07T11:56:16.883008" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\b1dbfeb9-ae26-4f60-8ca5-20e6953691d3"}</msg>
+<msg time="2025-07-10T14:57:25.348891" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\f2875656-440d-4439-9c86-befd51fd9865"}</msg>
+<msg time="2025-07-10T14:57:25.369725" level="INFO">Starting Browser process C:\Python\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:62701</msg>
+<msg time="2025-07-10T14:57:26.885390" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\traces\\temp\\f2875656-440d-4439-9c86-befd51fd9865"}</msg>
+<arg>browser=${browser}</arg>
 <arg>headless=False</arg>
+<arg>args=["--start-maximized"]</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-07-07T11:56:15.487863" elapsed="1.395466"/>
+<status status="PASS" start="2025-07-10T14:57:25.348023" elapsed="1.537710"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-07-10T14:57:26.889985" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2025-07-10T14:57:26.920855" level="INFO">Successfully created context. </msg>
+<msg time="2025-07-10T14:57:26.920992" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=${None}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-07-10T14:57:26.886223" elapsed="0.034912"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-07-07T11:56:20.761819" level="INFO">Successfully initialized new page object and opened url: https://env-5369504.paas.datacenter.fi/</msg>
-<msg time="2025-07-07T11:56:20.761917" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-07-10T14:57:30.130434" level="INFO">Successfully initialized new page object and opened url: https://env-5369504.paas.datacenter.fi/</msg>
 <arg>${url}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-07-07T11:56:16.883770" elapsed="3.878331"/>
+<status status="PASS" start="2025-07-10T14:57:26.921514" elapsed="3.209303"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-07-07T11:56:20.763083" level="INFO">Clicks the element '//div[contains(@class,'adroll_button_text') and text()='Allow All']'.</msg>
+<msg time="2025-07-10T14:57:30.132152" level="INFO">Clicks the element '//div[contains(@class,'adroll_button_text') and text()='Allow All']'.</msg>
 <arg>//div[contains(@class,'adroll_button_text') and text()='Allow All']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.762343" elapsed="0.081469"/>
+<status status="PASS" start="2025-07-10T14:57:30.131194" elapsed="0.112709"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-07-07T11:56:20.844912" level="INFO">Clicks the element '//a[@class='login']'.</msg>
+<msg time="2025-07-10T14:57:30.245507" level="INFO">Clicks the element '//a[@class='login']'.</msg>
 <arg>//a[@class='login']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.844089" elapsed="0.046193"/>
+<status status="PASS" start="2025-07-10T14:57:30.244344" elapsed="0.060912"/>
 </kw>
-<status status="PASS" start="2025-07-07T11:56:15.487231" elapsed="5.403226"/>
+<status status="PASS" start="2025-07-10T14:57:25.347320" elapsed="4.958323"/>
 </kw>
 <kw name="Login" owner="keywords">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-07T11:56:20.907564" level="INFO">Waited for Element with selector input#username at state visible</msg>
+<msg time="2025-07-10T14:57:30.366044" level="INFO">Waited for Element with selector input#username at state visible</msg>
 <arg>input#username</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.891531" elapsed="0.016225"/>
+<status status="PASS" start="2025-07-10T14:57:30.308978" elapsed="0.057417"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-07-07T11:56:20.908831" level="INFO">Fills the text 'yusuf.er@brightstraining.com' in the given field.</msg>
+<msg time="2025-07-10T14:57:30.368363" level="INFO">Fills the text 'yusuf.er@brightstraining.com' in the given field.</msg>
 <arg>input#username</arg>
 <arg>${email}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.907992" elapsed="0.035095"/>
+<status status="PASS" start="2025-07-10T14:57:30.366859" elapsed="0.038801"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-07-07T11:56:20.953550" level="INFO">Waited for Element with selector input#password at state visible</msg>
+<msg time="2025-07-10T14:57:30.425553" level="INFO">Waited for Element with selector input#password at state visible</msg>
 <arg>input#password</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.943460" elapsed="0.010296"/>
+<status status="PASS" start="2025-07-10T14:57:30.406142" elapsed="0.019719"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-07-07T11:56:20.954915" level="INFO">Fills the text 'tenor!embedded9PING' in the given field.</msg>
+<msg time="2025-07-10T14:57:30.428092" level="INFO">Fills the text 'tenor!embedded9PING' in the given field.</msg>
 <arg>input#password</arg>
 <arg>${password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.954019" elapsed="0.015693"/>
+<status status="PASS" start="2025-07-10T14:57:30.426286" elapsed="0.034174"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-07-07T11:56:20.970821" level="INFO">Clicks the element '//input[@type='submit' and @value='Login']'.</msg>
+<msg time="2025-07-10T14:57:30.462559" level="INFO">Clicks the element '//input[@type='submit' and @value='Login']'.</msg>
 <arg>//input[@type='submit' and @value='Login']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-07-07T11:56:20.970003" elapsed="0.037043"/>
+<status status="PASS" start="2025-07-10T14:57:30.460989" elapsed="0.084289"/>
 </kw>
-<status status="PASS" start="2025-07-07T11:56:20.890959" elapsed="0.116278"/>
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2025-07-10T14:57:30.547277" level="INFO">Waiting page load to state to receive load in 30000.0</msg>
+<msg time="2025-07-10T14:57:30.557872" level="INFO">Load state load got in 30000</msg>
+<arg>load</arg>
+<arg>timeout=30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2025-07-10T14:57:30.545721" elapsed="0.012501"/>
 </kw>
-<msg time="2025-07-07T11:56:21.037787" level="INFO">Switching context to context=fe565c69-b94b-4ac6-843c-6cfe853e211c in CURRENT</msg>
-<msg time="2025-07-07T11:56:21.051657" level="INFO">Successfully changed active context: context=fe565c69-b94b-4ac6-843c-6cfe853e211c</msg>
-<msg time="2025-07-07T11:56:21.128881" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-07-07T11:56:15.486429" elapsed="5.521272"/>
+<status status="PASS" start="2025-07-10T14:57:30.307846" elapsed="0.250710"/>
+</kw>
+<kw name="Open Poll Settings" owner="keywords">
+<kw name="Click" owner="Browser">
+<msg time="2025-07-10T14:57:30.560928" level="INFO">Clicks the element '//i[@class='fa fa-fw fa-gears fa-fw']'.</msg>
+<msg time="2025-07-10T14:57:40.792899" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-07-10T14:57:40.793025" level="INFO">See also file:///C:/Users/yusuf/PycharmProjects/VibeCatch_Testing/playwright-log.txt for additional details.</msg>
+<msg time="2025-07-10T14:57:40.793330" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//i[@class=\'fa fa-fw fa-gears fa-fw\']')
+</msg>
+<arg>//i[@class='fa fa-fw fa-gears fa-fw']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="FAIL" start="2025-07-10T14:57:30.559946" elapsed="10.237502">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//i[@class=\'fa fa-fw fa-gears fa-fw\']')
+</status>
+</kw>
+<status status="FAIL" start="2025-07-10T14:57:30.559200" elapsed="10.238400">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//i[@class=\'fa fa-fw fa-gears fa-fw\']')
+</status>
+</kw>
+<kw name="Delete Poll" owner="keywords">
+<status status="NOT RUN" start="2025-07-10T14:57:40.798055" elapsed="0.000111"/>
+</kw>
+<kw name="Logout" owner="keywords">
+<status status="NOT RUN" start="2025-07-10T14:57:40.798458" elapsed="0.000150"/>
+</kw>
+<msg time="2025-07-10T14:57:40.813440" level="INFO">Switching context to context=64851446-438f-442a-bf00-5fcb6c5ef431 in CURRENT</msg>
+<msg time="2025-07-10T14:57:40.822972" level="INFO">Successfully changed active context: context=64851446-438f-442a-bf00-5fcb6c5ef431</msg>
+<msg time="2025-07-10T14:57:40.857065" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2025-07-10T14:57:25.346582" elapsed="15.452231">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//i[@class=\'fa fa-fw fa-gears fa-fw\']')
+</status>
 </test>
-<status status="PASS" start="2025-07-07T11:56:15.305297" elapsed="5.826787"/>
+<status status="FAIL" start="2025-07-10T14:57:25.168435" elapsed="15.689800"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Login Test" id="s1" pass="1" fail="0" skip="0">Login Test</stat>
+<stat name="Delete Poll Test" id="s1" pass="0" fail="1" skip="0">Delete Poll Test</stat>
 </suite>
 </statistics>
 <errors>
