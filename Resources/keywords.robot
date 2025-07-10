@@ -17,6 +17,7 @@ Open website
 Login
     Wait For Elements State    input#username    visible    timeout=10s
     Fill Text    input#username    ${email}
+
     Wait For Elements State    input#password    visible    timeout=10s
     Fill Text    input#password    ${password}
     Click    //input[@type='submit' and @value='Login']
