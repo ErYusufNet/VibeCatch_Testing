@@ -24,6 +24,7 @@ Login
     Wait For Load State    load    timeout=30s
 
 Create Poll
+    [Arguments]    ${poll_name}
     Wait For Elements State    xpath=//body/vibe-app/div[@id='masterContainer']/vibe-list/div[2]/div[1]/a[1]    visible    timeout=15s
     Click                      xpath=//body/vibe-app/div[@id='masterContainer']/vibe-list/div[2]/div[1]/a[1]
     Wait For Elements State    xpath=//input[@id='addProjectName']    visible    timeout=10s
@@ -70,4 +71,3 @@ Logout
     Wait For Elements State    //a[normalize-space()='Log out']    visible    timeout=10s
     Click                      //a[normalize-space()='Log out']
     Wait For Load State        load    timeout=15s
-
