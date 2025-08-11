@@ -1,0 +1,58 @@
+{"level":30,"time":"2025-08-01T06:38:48.537Z","pid":31472,"hostname":"YusufEr","msg":"Listening on 127.0.0.1:56902"}
+(node:31472) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-01T06:38:48.777Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-01T06:38:49.348Z","pid":31472,"hostname":"YusufEr","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-08-01T06:38:49.349Z","pid":31472,"hostname":"YusufEr","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-01T06:38:49.349Z","pid":31472,"hostname":"YusufEr","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-01T06:38:49.360Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-01T06:38:49.360Z","pid":31472,"hostname":"YusufEr","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-08-01T06:38:49.360Z","pid":31472,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-01T06:38:49.361Z","pid":31472,"hostname":"YusufEr","msg":"Trace file: "}
+{"level":30,"time":"2025-08-01T06:38:49.383Z","pid":31472,"hostname":"YusufEr","msg":"Changed active context"}
+{"level":30,"time":"2025-08-01T06:38:49.383Z","pid":31472,"hostname":"YusufEr","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-01T06:38:49.390Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-01T06:38:49.390Z","pid":31472,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-01T06:38:49.597Z","pid":31472,"hostname":"YusufEr","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-01T06:38:49.597Z","pid":31472,"hostname":"YusufEr","msg":"Changed active page"}
+{"level":30,"time":"2025-08-01T06:38:59.605Z","pid":31472,"hostname":"YusufEr","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+Call log:
+[2m  - navigating to "https://env-5369504.paas.datacenter.fi/", waiting until "load"[22m
+
+    at newPage (C:\Python\Lib\site-packages\Browser\wrapper\index.js:12570:18)
+    at async PlaywrightServer.newPage (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-01T06:38:59.612Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Python\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:34)
+    at Object.onReceiveHalfClose (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-08-01T06:38:59.613Z","pid":31472,"hostname":"YusufEr","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-08-01T06:38:59.789Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.790Z","pid":31472,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.793Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.793Z","pid":31472,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.796Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.796Z","pid":31472,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.799Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.799Z","pid":31472,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:38:59.802Z","pid":31472,"hostname":"YusufEr","msg":"Changed active context"}
+{"level":30,"time":"2025-08-01T06:38:59.804Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-08-01T06:39:49.893Z","pid":31472,"hostname":"YusufEr","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-08-01T06:39:49.904Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:39:49.904Z","pid":31472,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-01T06:39:51.073Z","pid":31472,"hostname":"YusufEr","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-01T06:48:21.474Z","pid":31472,"hostname":"YusufEr","msg":"End of node method closeAllBrowsers"}

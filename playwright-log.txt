@@ -101,3 +101,103 @@ Call log:
 {"level":30,"time":"2025-08-11T10:55:25.944Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
 {"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
 {"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-11T10:55:39.289Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:55:39.294Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-11T10:55:39.294Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:55:44.298Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:55:44.301Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:55:44.301Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:55:44.415Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:55:45.420Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:55:45.804Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:55:45.804Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-11T10:55:58.817Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:55:58.822Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-11T10:55:58.822Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:56:03.837Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:56:03.844Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:03.844Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:56:03.965Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:04.975Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:56:05.291Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:05.291Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-11T10:56:18.284Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:18.289Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-11T10:56:18.289Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:56:23.296Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:56:23.300Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:23.300Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:56:23.473Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:24.478Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:56:24.849Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:24.850Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-11T10:56:37.847Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:37.855Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-11T10:56:37.856Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:56:42.859Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:56:42.863Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:42.864Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:56:42.972Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:56:43.982Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:56:44.348Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:44.348Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-11T10:56:57.343Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:56:57.347Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-11T10:56:57.347Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:57:02.351Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:57:02.355Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:57:02.355Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-8.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:57:02.475Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:57:03.485Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:57:03.769Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:57:03.769Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
