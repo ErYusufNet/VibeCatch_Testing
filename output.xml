@@ -140,3 +140,166 @@ Call log:
 <status status="PASS" start="2025-08-11T13:54:45.496541" elapsed="0.014515"/>
 </kw>
 <kw name="Click" owner="Browser">
+<msg time="2025-08-11T13:54:45.512496" level="INFO">Clicks the element '//input[@type='submit' and @value='Login']'.</msg>
+<arg>${BTN_SUBMIT_LOGIN}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-11T13:54:45.511366" elapsed="0.049011"/>
+</kw>
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2025-08-11T13:54:45.562510" level="INFO">Waiting page load to state to receive networkidle in 45000.0</msg>
+<msg time="2025-08-11T13:55:00.211201" level="INFO">Load state networkidle got in 45000</msg>
+<arg>networkidle</arg>
+<arg>timeout=45s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2025-08-11T13:54:45.560727" elapsed="14.650814"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-11T13:55:00.231693" level="INFO">Waited for Element with selector css=.dialog-overlay at state hidden</msg>
+<arg>css=.dialog-overlay</arg>
+<arg>hidden</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-11T13:55:00.212846" elapsed="0.018978"/>
+</kw>
+<arg>Wait For Elements State</arg>
+<arg>css=.dialog-overlay</arg>
+<arg>hidden</arg>
+<arg>timeout=10s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2025-08-11T13:55:00.212083" elapsed="0.019886"/>
+</kw>
+<status status="PASS" start="2025-08-11T13:54:44.170280" elapsed="16.061800"/>
+</kw>
+<kw name="Generate Poll Name" owner="PollGen">
+<msg time="2025-08-11T13:55:00.233016" level="INFO">${poll_name} = Team Alignment Review 20250811-135500</msg>
+<var>${poll_name}</var>
+<doc>Robot keyword: 'Generate Poll Name'.</doc>
+<status status="PASS" start="2025-08-11T13:55:00.232549" elapsed="0.000495"/>
+</kw>
+<kw name="Create Poll" owner="keywords">
+<kw name="Wait Until Create Poll Visible (with retries)" owner="keywords">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-08-11T13:55:00.234206" level="INFO">${found} = False</msg>
+<var>${found}</var>
+<arg>${False}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-08-11T13:55:00.233986" elapsed="0.000289"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-11T13:55:05.353070" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-11T13:55:05.353166" level="INFO">See also file:///C:/Users/yusuf/PycharmProjects/VibeCatch_Testing/playwright-log.txt for additional details.</msg>
+<msg time="2025-08-11T13:55:05.353272" level="FAIL">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible
+</msg>
+<arg>${BTN_CREATE_POLL}</arg>
+<arg>visible</arg>
+<arg>timeout=5s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="FAIL" start="2025-08-11T13:55:00.235036" elapsed="5.119260">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible
+</status>
+</kw>
+<msg time="2025-08-11T13:55:05.354417" level="INFO">${ok} = False</msg>
+<var>${ok}</var>
+<arg>Wait For Elements State</arg>
+<arg>${BTN_CREATE_POLL}</arg>
+<arg>visible</arg>
+<arg>timeout=5s</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-08-11T13:55:00.234843" elapsed="5.119595"/>
+</kw>
+<if>
+<branch type="IF" condition="${ok}">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${found}</var>
+<arg>${True}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-08-11T13:55:05.354946" elapsed="0.000156"/>
+</kw>
+<kw name="Exit For Loop" owner="BuiltIn">
+<doc>Stops executing the enclosing FOR loop.</doc>
+<status status="NOT RUN" start="2025-08-11T13:55:05.355366" elapsed="0.000126"/>
+</kw>
+<status status="NOT RUN" start="2025-08-11T13:55:05.354532" elapsed="0.001043"/>
+</branch>
+<status status="PASS" start="2025-08-11T13:55:05.354506" elapsed="0.001159"/>
+</if>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-11T13:55:06.356610" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-11T13:55:05.355818" elapsed="1.001058"/>
+</kw>
+<kw name="Reload" owner="Browser">
+<msg time="2025-08-11T13:55:06.638959" level="INFO">Reloaded page with options: {"waitUntil": "load"}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Reloads current active page.</doc>
+<status status="PASS" start="2025-08-11T13:55:06.357155" elapsed="0.282057"/>
+</kw>
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2025-08-11T13:55:06.640332" level="INFO">Waiting page load to state to receive networkidle in 15000.0</msg>
+<msg time="2025-08-11T13:55:19.692323" level="INFO">Load state networkidle got in 15000</msg>
+<arg>networkidle</arg>
+<arg>timeout=15s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2025-08-11T13:55:06.639454" elapsed="13.053659"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2025-08-11T13:55:00.234683" elapsed="19.458684"/>
+</iter>
+<iter>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-11T13:55:24.946402" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-3.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-3.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-11T13:55:24.946537" level="INFO">See also file:///C:/Users/yusuf/PycharmProjects/VibeCatch_Testing/playwright-log.txt for additional details.</msg>
+<msg time="2025-08-11T13:55:24.946672" level="FAIL">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible
+</msg>
+<arg>${BTN_CREATE_POLL}</arg>
+<arg>visible</arg>
+<arg>timeout=5s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="FAIL" start="2025-08-11T13:55:19.695361" elapsed="5.252996">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible
+</status>
+</kw>
+<msg time="2025-08-11T13:55:24.948538" level="INFO">${ok} = False</msg>
+<var>${ok}</var>
+<arg>Wait For Elements State</arg>
+<arg>${BTN_CREATE_POLL}</arg>
+<arg>visible</arg>
+<arg>timeout=5s</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-08-11T13:55:19.694663" elapsed="5.253908"/>
+</kw>
+<if>
+<branch type="IF" condition="${ok}">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${found}</var>
+<arg>${True}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-08-11T13:55:24.948962" elapsed="0.000081"/>
+</kw>
+<kw name="Exit For Loop" owner="BuiltIn">
+<doc>Stops executing the enclosing FOR loop.

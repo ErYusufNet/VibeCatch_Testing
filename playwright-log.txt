@@ -84,3 +84,20 @@ Call log:
 {"level":30,"time":"2025-08-11T10:55:19.681Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
 {"level":30,"time":"2025-08-11T10:55:19.694Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
 {"level":30,"time":"2025-08-11T10:55:19.694Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
+{"level":30,"time":"2025-08-11T10:55:24.695Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+
+    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-11T10:55:24.701Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:55:24.702Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-11T10:55:24.937Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-11T10:55:25.944Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
