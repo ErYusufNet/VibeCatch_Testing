@@ -1,16 +1,14 @@
 *** Settings ***
-Library     Browser
-Resource    ../Resources/keywords.robot
-Resource    ../Resources/variables.robot
+Library    Browser
+Resource   ../resources/variables.robot
+Resource   ../resources/keywords.robot
+
+Suite Setup       Open Website
+Suite Teardown    Close Browser
 
 *** Test Cases ***
-*** Test Cases ***
-TC01 Delete Poll
-    Open website
+TC02 Delete Poll
     Login
-
-    Open Poll Settings    # <== bunu ekle
+    Open Poll Settings
     Delete Poll
     Logout
-
-
