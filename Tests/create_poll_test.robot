@@ -1,19 +1,19 @@
 *** Settings ***
 Library    Browser
-Resource   ../resources/variables.robot
-Resource   ../resources/keywords.robot
+Resource    ../Resources/variables.resource
+Resource   ../Resources/keywords.resource
 Library    ../libs/poll_generator.py    WITH NAME    PollGen
+Library    ../libs/env_utils.py    WITH NAME    Env
 
 Suite Setup       Open Website
 Suite Teardown    Close Browser
 
 *** Test Cases ***
 TC01 Create New Poll
-    Login
-    ${poll_name}=    Generate Poll Name
-    Create Poll      ${poll_name}
-    Open Basic Settings
-    Save Changes
-    Open Poll Settings
-    Logout
+    ${EMAIL}=      PollGen.Get Env    VC_EMAIL     required=True
+    ${PASSWORD}=   PollGen.Get Env    VC_PASSWORD  required=True
+    Login          ${EMAIL}    ${PASSWORD}
 
+    ${poll_name}=  PollGen.Generate Poll Name    prefix=QWL
+    Create Poll    ${poll_name}
+    Logout
