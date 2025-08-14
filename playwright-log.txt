@@ -1,32 +1,32 @@
-{"level":30,"time":"2025-08-11T10:54:38.113Z","pid":12780,"hostname":"YusufEr","msg":"Listening on 127.0.0.1:54170"}
-(node:12780) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-08-14T19:44:14.667Z","pid":16544,"hostname":"YusufEr","msg":"Listening on 127.0.0.1:55881"}
+(node:16544) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-08-11T10:54:38.687Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-08-11T10:54:38.987Z","pid":12780,"hostname":"YusufEr","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
-{"level":30,"time":"2025-08-11T10:54:38.988Z","pid":12780,"hostname":"YusufEr","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-08-11T10:54:38.988Z","pid":12780,"hostname":"YusufEr","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-08-11T10:54:39.000Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-08-11T10:54:39.000Z","pid":12780,"hostname":"YusufEr","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
-{"level":30,"time":"2025-08-11T10:54:39.001Z","pid":12780,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-08-11T10:54:39.001Z","pid":12780,"hostname":"YusufEr","msg":"Trace file: "}
-{"level":30,"time":"2025-08-11T10:54:39.028Z","pid":12780,"hostname":"YusufEr","msg":"Changed active context"}
-{"level":30,"time":"2025-08-11T10:54:39.028Z","pid":12780,"hostname":"YusufEr","msg":"End of node method newContext"}
-{"level":30,"time":"2025-08-11T10:54:39.037Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-08-11T10:54:39.037Z","pid":12780,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-08-11T10:54:39.251Z","pid":12780,"hostname":"YusufEr","msg":"Video path: undefined"}
-{"level":30,"time":"2025-08-11T10:54:39.252Z","pid":12780,"hostname":"YusufEr","msg":"Changed active page"}
-{"level":30,"time":"2025-08-11T10:54:44.050Z","pid":12780,"hostname":"YusufEr","msg":"End of node method newPage"}
-{"level":30,"time":"2025-08-11T10:54:44.058Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:54:44.058Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //div[contains(@class,'adroll_button_text') and normalize-space(.)='Allow All'] in page."}
-{"level":30,"time":"2025-08-11T10:54:44.098Z","pid":12780,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:54:44.104Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method click"}
-{"level":30,"time":"2025-08-11T10:54:44.105Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //div[contains(@class,'adroll_button_text') and normalize-space(.)='Allow All'] in page."}
-{"level":30,"time":"2025-08-11T10:54:44.151Z","pid":12780,"hostname":"YusufEr","msg":"End of node method click"}
-{"level":30,"time":"2025-08-11T10:54:44.156Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-11T10:54:44.160Z","pid":12780,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-11T10:54:44.169Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:54:44.169Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
-{"level":30,"time":"2025-08-11T10:54:45.173Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:14.865Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-14T19:44:15.091Z","pid":16544,"hostname":"YusufEr","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-08-14T19:44:15.092Z","pid":16544,"hostname":"YusufEr","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-14T19:44:15.091Z","pid":16544,"hostname":"YusufEr","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-14T19:44:15.100Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-14T19:44:15.101Z","pid":16544,"hostname":"YusufEr","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-08-14T19:44:15.101Z","pid":16544,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-14T19:44:15.101Z","pid":16544,"hostname":"YusufEr","msg":"Trace file: "}
+{"level":30,"time":"2025-08-14T19:44:15.120Z","pid":16544,"hostname":"YusufEr","msg":"Changed active context"}
+{"level":30,"time":"2025-08-14T19:44:15.120Z","pid":16544,"hostname":"YusufEr","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-14T19:44:15.127Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-14T19:44:15.127Z","pid":16544,"hostname":"YusufEr","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-14T19:44:15.302Z","pid":16544,"hostname":"YusufEr","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-14T19:44:15.303Z","pid":16544,"hostname":"YusufEr","msg":"Changed active page"}
+{"level":30,"time":"2025-08-14T19:44:19.789Z","pid":16544,"hostname":"YusufEr","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-14T19:44:19.797Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:19.797Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //div[contains(@class,'adroll_button_text') and normalize-space(.)='Allow All'] in page."}
+{"level":30,"time":"2025-08-14T19:44:19.838Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:19.842Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:19.843Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //div[contains(@class,'adroll_button_text') and normalize-space(.)='Allow All'] in page."}
+{"level":30,"time":"2025-08-14T19:44:19.885Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:19.891Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:19.895Z","pid":16544,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:19.907Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:19.907Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
+{"level":30,"time":"2025-08-14T19:44:20.914Z","pid":16544,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
 ================= Original suppressed error =================
 locator.waitFor: Timeout 1000ms exceeded.
 Call log:
@@ -38,166 +38,128 @@ Call log:
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2025-08-11T10:54:45.184Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:54:45.185Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:54:45.419Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:54:45.434Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method click"}
-{"level":30,"time":"2025-08-11T10:54:45.434Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //a[@class='login'] in page."}
-{"level":30,"time":"2025-08-11T10:54:45.458Z","pid":12780,"hostname":"YusufEr","msg":"End of node method click"}
-{"level":30,"time":"2025-08-11T10:54:45.464Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:54:45.464Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
-{"level":30,"time":"2025-08-11T10:54:45.469Z","pid":12780,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:54:45.474Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-08-11T10:54:45.474Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
-{"level":30,"time":"2025-08-11T10:54:45.487Z","pid":12780,"hostname":"YusufEr","msg":"End of node method fillText"}
-{"level":30,"time":"2025-08-11T10:54:45.492Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-08-11T10:54:45.492Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#password in page."}
-{"level":30,"time":"2025-08-11T10:54:45.502Z","pid":12780,"hostname":"YusufEr","msg":"End of node method fillText"}
-{"level":30,"time":"2025-08-11T10:54:45.506Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method click"}
-{"level":30,"time":"2025-08-11T10:54:45.506Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //input[@type='submit' and @value='Login'] in page."}
-{"level":30,"time":"2025-08-11T10:54:45.551Z","pid":12780,"hostname":"YusufEr","msg":"End of node method click"}
-{"level":30,"time":"2025-08-11T10:54:45.558Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:54:45.558Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 45000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:55:00.201Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:00.209Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:00.209Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with css=.dialog-overlay in page."}
-{"level":30,"time":"2025-08-11T10:55:00.223Z","pid":12780,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:00.228Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:00.228Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:55:05.235Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:20.923Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-14T19:44:20.923Z","pid":16544,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-14T19:44:21.170Z","pid":16544,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-14T19:44:21.183Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:21.183Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //a[@class='login'] in page."}
+{"level":30,"time":"2025-08-14T19:44:21.187Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:21.192Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:21.192Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //a[@class='login'] in page."}
+{"level":30,"time":"2025-08-14T19:44:21.218Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:21.221Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:21.221Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
+{"level":30,"time":"2025-08-14T19:44:21.225Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:21.231Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:21.231Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#username in page."}
+{"level":30,"time":"2025-08-14T19:44:21.244Z","pid":16544,"hostname":"YusufEr","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:21.248Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:21.248Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with input#password in page."}
+{"level":30,"time":"2025-08-14T19:44:21.257Z","pid":16544,"hostname":"YusufEr","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:21.261Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:21.261Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with //input[@type='submit' and @value='Login'] in page."}
+{"level":30,"time":"2025-08-14T19:44:21.303Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:21.308Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-14T19:44:21.309Z","pid":16544,"hostname":"YusufEr","msg":"timeout: 45000 state: networkidle"}
+{"level":30,"time":"2025-08-14T19:44:24.903Z","pid":16544,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-14T19:44:24.916Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.916Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with css=.dialog-overlay in page."}
+{"level":30,"time":"2025-08-14T19:44:24.932Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.939Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.939Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//body/vibe-app/div[@id='masterContainer']/vibe-list/div[2]/div[1]/a[1] in page."}
+{"level":30,"time":"2025-08-14T19:44:24.946Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.949Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:24.949Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//body/vibe-app/div[@id='masterContainer']/vibe-list/div[2]/div[1]/a[1] in page."}
+{"level":30,"time":"2025-08-14T19:44:24.990Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:24.993Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.993Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//input[@id='addProjectName'] in page."}
+{"level":30,"time":"2025-08-14T19:44:24.996Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:24.998Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:24.998Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//input[@id='addProjectName'] in page."}
+{"level":30,"time":"2025-08-14T19:44:25.006Z","pid":16544,"hostname":"YusufEr","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-14T19:44:25.010Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:25.010Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//button[normalize-space()='Create a QWL poll'] in page."}
+{"level":30,"time":"2025-08-14T19:44:25.012Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:25.015Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:25.015Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//button[normalize-space()='Create a QWL poll'] in page."}
+{"level":30,"time":"2025-08-14T19:44:25.288Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:25.297Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-14T19:44:25.297Z","pid":16544,"hostname":"YusufEr","msg":"timeout: 30000 state: networkidle"}
+{"level":30,"time":"2025-08-14T19:44:25.298Z","pid":16544,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-08-14T19:44:25.306Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:25.306Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//vibe-settings-advanced-button[@icon='cog']//div[contains(@class,'accordionTitle')] in page."}
+{"level":30,"time":"2025-08-14T19:44:26.719Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:26.724Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2025-08-14T19:44:26.724Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//vibe-settings-advanced-button[@icon='cog']//div[contains(@class,'accordionTitle')] in page."}
+{"level":30,"time":"2025-08-14T19:44:26.919Z","pid":16544,"hostname":"YusufEr","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2025-08-14T19:44:26.923Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:26.924Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//vibe-settings-advanced-button[@icon='cog']//div[contains(@class,'accordionTitle')] in page."}
+{"level":30,"time":"2025-08-14T19:44:26.972Z","pid":16544,"hostname":"YusufEr","msg":"End of node method click"}
+{"level":30,"time":"2025-08-14T19:44:26.976Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:26.976Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//a[@id='save'] in page."}
+{"level":30,"time":"2025-08-14T19:44:26.979Z","pid":16544,"hostname":"YusufEr","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:26.984Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2025-08-14T19:44:26.984Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//a[@id='save'] in page."}
+{"level":30,"time":"2025-08-14T19:44:27.004Z","pid":16544,"hostname":"YusufEr","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2025-08-14T19:44:27.009Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-14T19:44:27.009Z","pid":16544,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=//a[@id='save'] in page."}
+{"level":30,"time":"2025-08-14T19:44:37.029Z","pid":16544,"hostname":"YusufEr","msg":"Error of node method  click"}
 ================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
+locator.click: Timeout 10000ms exceeded.
 Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
+[2m  - waiting for locator('//a[@id=\'save\']')[22m
+[2m    - locator resolved to <a id="save" class="btn btn-white">…</a>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - element is outside of the viewport[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - element is outside of the viewport[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    19 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - element is outside of the viewport[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
 
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+    at internalClick (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11893:19)
+    at async click (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11874:18)
+    at async PlaywrightServer.click (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2025-08-11T10:55:05.252Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:05.253Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:55:05.344Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:06.355Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:55:06.634Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:06.634Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:55:19.681Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:19.694Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:19.694Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:55:24.695Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
+{"level":30,"time":"2025-08-14T19:44:37.045Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-14T19:44:37.045Z","pid":16544,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-14T19:44:37.167Z","pid":16544,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-14T19:44:37.176Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:37.178Z","pid":16544,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:37.182Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-14T19:44:37.194Z","pid":16544,"hostname":"YusufEr","msg":"Removed page=00288408-c816-4948-9b61-7cf19dcfdf4e from context=2ba82496-e2ac-4f17-957b-cf64d87870d2 page stack"}
+{"level":30,"time":"2025-08-14T19:44:37.516Z","pid":16544,"hostname":"YusufEr","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-11T10:55:24.701Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:24.702Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:55:24.937Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:25.944Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:26.274Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:55:39.289Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:39.294Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:39.294Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:55:44.298Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2025-08-11T10:55:44.301Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:44.301Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:55:44.415Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:55:45.420Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:55:45.804Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:45.804Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:55:58.817Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:55:58.822Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:55:58.822Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:56:03.837Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2025-08-11T10:56:03.844Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:03.844Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:56:03.965Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:04.975Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:56:05.291Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:05.291Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:56:18.284Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:18.289Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:56:18.289Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:56:23.296Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2025-08-11T10:56:23.300Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:23.300Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:56:23.473Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:24.478Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:56:24.849Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:24.850Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:56:37.847Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:37.855Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:56:37.856Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:56:42.859Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2025-08-11T10:56:42.863Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:42.864Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:56:42.972Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:56:43.982Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:56:44.348Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:44.348Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
-{"level":30,"time":"2025-08-11T10:56:57.343Z","pid":12780,"hostname":"YusufEr","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:56:57.347Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-08-11T10:56:57.347Z","pid":12780,"hostname":"YusufEr","msg":"Strict mode is enabled, find Locator with xpath=(//a[contains(@class,'add-project') and normalize-space(.)='Create a new poll'])[1] in page."}
-{"level":30,"time":"2025-08-11T10:57:02.351Z","pid":12780,"hostname":"YusufEr","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-[2m  - waiting for locator('xpath=(//a[contains(@class,\'add-project\') and normalize-space(.)=\'Create a new poll\'])[1]') to be visible[22m
-
-    at waitForElementState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:11283:19)
-    at async PlaywrightServer.waitForElementsState (C:\Python\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2025-08-11T10:57:02.355Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:57:02.355Z","pid":12780,"hostname":"YusufEr","Take screenshot with options: ":{"path":"C:\\Users\\yusuf\\PycharmProjects\\VibeCatch_Testing\\browser\\screenshot\\fail-screenshot-8.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-11T10:57:02.475Z","pid":12780,"hostname":"YusufEr","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-11T10:57:03.485Z","pid":12780,"hostname":"YusufEr","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
-{"level":30,"time":"2025-08-11T10:57:03.769Z","pid":12780,"hostname":"YusufEr","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2025-08-11T10:57:03.769Z","pid":12780,"hostname":"YusufEr","msg":"timeout: 15000 state: networkidle"}
+{"level":30,"time":"2025-08-14T19:44:37.527Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:37.528Z","pid":16544,"hostname":"YusufEr","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-14T19:44:37.608Z","pid":16544,"hostname":"YusufEr","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-14T19:44:37.608Z","pid":16544,"hostname":"YusufEr","msg":"End of node method closeAllBrowsers"}
